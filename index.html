@@ -1,74 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Creovate | Freelance Creative Services</title>
-
-  <!-- Fonts & Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- External CSS -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creovate | Freelance Creative Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <!-- Header -->
-  <header id="header">
-    <div class="container">
-      <nav>
-        <a href="#" class="logo">Creov<span>ate</span></a>
-        <ul class="nav-links">
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="hamburger"><i class="fas fa-bars"></i></div>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Sections -->
-  <!-- 💡 NOTE: Hero, About, Services, Portfolio, Footer remain unchanged. -->
-
-  <!-- ✅ Include this updated Contact Section: -->
-  <section id="contact">
-    <div class="container">
-      <div class="section-title"><h2>Get In Touch</h2></div>
-      <div class="contact-container">
-        <div class="contact-info">
-          <!-- Address, Email, Social Links here (unchanged) -->
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Creov<span>ate</span></a>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
         </div>
-        <div class="contact-form">
-          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" name="name" class="form-control" required>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Creovate</span></h1>
+                <p>Create. Innovate. Deliver.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="#portfolio" class="btn btn-outline">View Work</a>
+                </div>
             </div>
-            <div class="form-group">
-              <label for="email">Your Email</label>
-              <input type="email" name="email" class="form-control" required>
+            <div class="hero-image">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#6c63ff" d="M177.7,168.7c-9.1-32.9,11.1-67.1,44-76.2s67.1,11.1,76.2,44s-11.1,67.1-44,76.2S186.8,201.6,177.7,168.7z"/>
+                    <path fill="#ff6584" d="M339.7,304.7c-13.6-49.4,16.6-100.6,66-114.2s100.6,16.6,114.2,66s-16.6,100.6-66,114.2S353.3,354.1,339.7,304.7z"/>
+                    <path fill="#6c63ff" d="M20.7,234.7c-9.1-32.9,11.1-67.1,44-76.2s67.1,11.1,76.2,44s-11.1,67.1-44,76.2S29.8,267.6,20.7,234.7z"/>
+                </svg>
             </div>
-            <div class="form-group">
-              <label for="message">Your Message</label>
-              <textarea name="message" class="form-control" required></textarea>
-            </div>
-            <button type="submit" class="btn">Send Message</button>
-          </form>
         </div>
-      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Freelancer Creating Digital Solutions</h3>
+                    <p>With over 5 years of experience in the digital space, I specialize in creating innovative solutions that help businesses grow and thrive online. My approach combines creativity with technical expertise to deliver outstanding results.</p>
+                    <p>I'm passionate about helping clients transform their ideas into reality through beautiful, functional digital products. Whether you need a stunning website, engaging video content, or custom AI tools, I've got you covered.</p>
+                    <p>When I'm not working on client projects, you can find me exploring new technologies, contributing to open-source projects, or mentoring aspiring freelancers in the creative community.</p>
+                    <a href="#services" class="btn" style="margin-top: 20px;">My Services</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Freelancer working">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section id="trusted">
+        <div class="container">
+            <h4 class="trusted-title">Trusted By Leading Brands</h4>
+            <div class="trusted-logos">
+                <!-- TechNova Logo -->
+                <div class="trusted-logo">
+                    <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="10" y="10" width="180" height="40" rx="5" fill="#2d2d2d"/>
+                        <text x="100" y="35" font-family="Arial" font-size="20" font-weight="bold" fill="#6c63ff" text-anchor="middle">TechNova</text>
+                    </svg>
+                </div>
+                
+                <!-- InnoVision Logo -->
+                <div class="trusted-logo">
+                    <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="20" fill="#ff6584"/>
+                        <path d="M60,15 L80,45 L100,15" stroke="#2d2d2d" stroke-width="3" fill="none"/>
+                        <text x="130" y="35" font-family="Arial" font-size="20" font-weight="bold" fill="#2d2d2d" text-anchor="middle">InnoVision</text>
+                    </svg>
+                </div>
+                
+                <!-- Vertex Logo -->
+                <div class="trusted-logo">
+                    <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="30,50 50,10 70,50" fill="#6c63ff"/>
+                        <text x="120" y="35" font-family="Arial" font-size="20" font-weight="bold" fill="#2d2d2d" text-anchor="middle">Vertex</text>
+                    </svg>
+                </div>
+                
+                <!-- Elevate Logo -->
+                <div class="trusted-logo">
+                    <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20,40 L40,20 L60,40" stroke="#ff6584" stroke-width="3" fill="none"/>
+                        <text x="110" y="35" font-family="Arial" font-size="20" font-weight="bold" fill="#2d2d2d" text-anchor="middle">Elevate</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Services</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Custom, responsive websites built with modern technologies to ensure fast loading, great user experience, and search engine visibility.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Professional video editing services for commercials, social media content, tutorials, and more with engaging visuals and effects.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Eye-catching designs for logos, branding materials, social media graphics, and marketing collateral that represent your brand perfectly.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Tool Setup</h3>
+                    <p>Implementation and customization of AI tools to automate processes, analyze data, and enhance your business operations.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Custom Projects</h3>
+                    <p>Tailored solutions for unique challenges. If you have a special project in mind, let's discuss how we can make it happen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+            </div>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="video">Video</button>
+                <button class="filter-btn" data-filter="ai">AI Tools</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item coming-soon" data-category="web">
+                    <div class="coming-soon-text">Coming Soon</div>
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully responsive online store with custom features and seamless checkout process.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item coming-soon" data-category="design">
+                    <div class="coming-soon-text">Coming Soon</div>
+                    <div class="portfolio-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding package including logo, color scheme, and brand guidelines.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item coming-soon" data-category="video">
+                    <div class="coming-soon-text">Coming Soon</div>
+                    <div class="portfolio-overlay">
+                        <h3>Product Commercial</h3>
+                        <p>Engaging 60-second product video with motion graphics and professional voiceover.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item coming-soon" data-category="ai">
+                    <div class="coming-soon-text">Coming Soon</div>
+                    <div class="portfolio-overlay">
+                        <h3>Customer Support Bot</h3>
+                        <p>AI-powered chatbot that handles 80% of customer inquiries automatically.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item coming-soon" data-category="web">
+                    <div class="coming-soon-text">Coming Soon</div>
+                    <div class="portfolio-overlay">
+                        <h3>Business Dashboard</h3>
+                        <p>Custom web application for real-time business analytics and reporting.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item coming-soon" data-category="design">
+                    <div class="coming-soon-text">Coming Soon</div>
+                    <div class="portfolio-overlay">
+                        <h3>Social Media Kit</h3>
+                        <p>Complete set of templates for consistent social media presence across platforms.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <h3>Contact Information</h3>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>West Bengal, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>mindverse2000@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>Hidden</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Follow Me</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/mindverse2000@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Creovate</h3>
+                    <p>Creating innovative digital solutions to help businesses thrive in the modern world.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Website Development</a></li>
+                        <li><a href="#">Video Editing</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">AI Tool Setup</a></li>
+                        <li><a href="#">Custom Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on my latest projects and offerings.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email" class="form-control" style="margin-bottom: 10px;">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Creovate. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
     </div>
-  </section>
 
-  <!-- Footer (same as original) -->
-
-  <!-- Back to Top Button -->
-  <div class="back-to-top"><i class="fas fa-arrow-up"></i></div>
-
-  <!-- External JS -->
-  <script src="script.js"></script>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>
